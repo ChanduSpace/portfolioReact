@@ -100,7 +100,7 @@ const Header = () => {
             <h1
               className={`text-[5vh] font-bold transition-colors duration-300 font-['Poppins'] ${getLogoColor()}`}
             >
-              DULAM.
+              CHANDU.
             </h1>
           </div>
 
