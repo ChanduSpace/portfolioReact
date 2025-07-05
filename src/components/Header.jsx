@@ -126,7 +126,7 @@ const Header = () => {
               className={`flex items-center space-x-1 transition-colors duration-300 hover:text-blue-600 font-['Poppins'] font-semibold ${getTextColor()}`}
             >
               {/* <Briefcase size={16} /> */}
-              <span>Skills</span>
+              <span>SKILLS</span>
             </button>
 
             <button
