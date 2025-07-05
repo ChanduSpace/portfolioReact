@@ -120,6 +120,15 @@ const Header = () => {
               {/* <User size={16} /> */}
               <span>ABOUT</span>
             </button>
+
+            <button
+              onClick={() => scrollToSection("skills")}
+              className={`flex items-center space-x-1 transition-colors duration-300 hover:text-blue-600 font-['Poppins'] font-semibold ${getTextColor()}`}
+            >
+              {/* <Briefcase size={16} /> */}
+              <span>Skills</span>
+            </button>
+
             <button
               onClick={() => scrollToSection("projects")}
               className={`flex items-center space-x-1 transition-colors duration-300 hover:text-blue-600 font-['Poppins'] font-semibold ${getTextColor()}`}

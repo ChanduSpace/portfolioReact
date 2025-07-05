@@ -3,10 +3,10 @@ import { Heart, Code } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-8">
+    <footer className="bg-gray-900 text-white py-4">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="flex items-center justify-center space-x-2 mb-4">
+          <div className="flex items-center justify-center space-x-2">
             <span className="text-gray-400">Made with</span>
             <Heart size={16} className="text-red-500 animate-pulse" />
             <span className="text-gray-400">and</span>
