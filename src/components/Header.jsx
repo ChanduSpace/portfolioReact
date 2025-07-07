@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import resume from "../assets/ChanduResumeFrontend.pdf";
 import {
   Menu,
   X,
@@ -154,10 +155,11 @@ const Header = () => {
               </a>
               <button
                 onClick={() =>
-                  window.open(
-                    "https://drive.google.com/file/d/1iJgmn66AcLVC0OuXPdo6xgwqb1V6RhTz/view?usp=sharing",
-                    "_blank"
-                  )
+                  // window.open(
+                  //   "https://drive.google.com/file/d/1iJgmn66AcLVC0OuXPdo6xgwqb1V6RhTz/view?usp=sharing",
+                  //   "_blank"
+                  // )
+                  window.open(resume, "_blank")
                 }
                 className={`px-4 py-2 border-2 rounded-lg font-semibold transition-all duration-300 font-['Poppins'] ${getButtonStyle()}`}
               >
