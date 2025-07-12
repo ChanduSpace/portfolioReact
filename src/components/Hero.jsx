@@ -45,9 +45,9 @@ const Hero = () => {
         }}
       ></div>
 
-      <div className="relative z-10 flex items-center justify-center h-[100vh] w-full max-w-7xl mx-auto px-4 gap-8 lg:gap-8">
+      <div className="relative z-10 lg:flex items-center justify-center h-[100vh] w-full max-w-7xl mx-auto px-4 gap-8 lg:gap-8">
         {/* Text Content */}
-        <div className="relative flex flex-col items-start justify-center text-white z-[100] max-w-2xl pt-16">
+        <div className="relative flex flex-col items-start justify-center text-white z-[100] max-w-2xl pt-16 sm:pt-20">
           <h1 className="text-3xl md:text-4xl lg:text-[40px]  font-bold mb-5 font-['Poppins'] lg:leading-[3.5rem]">
             START OUR
             <br />
@@ -84,7 +84,7 @@ const Hero = () => {
 
         {/* Image Container */}
         <div className="pt-20">
-          <div className="flex justify-center items-center h-[600px] w-[600px] z-[90] hidden lg:flex">
+          <div className="flex justify-center items-center h-[600px] w-[600px] z-[90]  lg:flex">
             <div className="flex justify-center items-center h-[450px] w-[450px] rounded-full shadow-[0_5px_15px_black] transition-all duration-[250ms] hover:shadow-[0_5px_30px_black] hover:scale-[1.02] z-[97] animate-[outer-circle-animation_1.3s_linear]">
               <div className="flex justify-center items-center h-[325px] w-[325px] rounded-full shadow-[0_5px_15px_black] transition-all duration-[250ms] hover:shadow-[0_5px_30px_black] hover:scale-[1.02] z-[98] animate-[middle-circle-animation_1.3s_linear]">
                 <div className="flex justify-center items-center h-[200px] w-[200px] rounded-full shadow-[0_5px_15px_black] transition-all duration-[250ms] hover:shadow-[0_5px_30px_black] hover:scale-[1.02] z-[99] animate-[inner-circle-animation_1.3s_linear]">

@@ -61,7 +61,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="h-screen bg-gray-50 flex flex-col">
+    <section
+      id="projects"
+      className="lg:h-screen bg-gray-50 flex flex-col lg:h-full"
+    >
       <div className="flex-1 max-w-7xl mx-auto px-4 pt-24 sm:px-6 lg:px-8 py-8 flex flex-col">
         {/* Header Section - Compact */}
         <div className="text-center mb-4">
