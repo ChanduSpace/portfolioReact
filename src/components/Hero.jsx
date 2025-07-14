@@ -26,11 +26,11 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className="relative bg-[#00292f] flex items-center justify-center min-h-screen w-full overflow-hidden"
+      className="relative bg-[#00292f] flex items-center justify-center lg:h-full w-full overflow-hidden h-[100vh]"
     >
       {/* Geometric shapes */}
       <div
-        className="absolute bottom-2.5 left-0 h-screen w-[70vw] z-10 bg-[rgb(115,146,173)] animate-[corner-1-animation_0.5s_linear]"
+        className="absolute bottom-2.5 left-0 h-screen w-[70vw] z-10 bg-[rgb(115,146,173)] animate-[corner-1-animation_0.5s_linear] hidden md:block"
         style={{
           clipPath:
             "polygon(0% 73%, 7% 79%, 16% 77%, 23% 83%, 30% 84%, 35% 87%, 41% 84%, 44% 91%, 53% 93%, 63% 100%, 0% 100%)",
@@ -38,16 +38,17 @@ const Hero = () => {
       ></div>
 
       <div
-        className="absolute bottom-0 left-0 h-screen w-[70vw] z-[11] bg-[#2d6d79] animate-[corner-2-animation_0.5s_linear]"
+        className="absolute bottom-0 left-0 h-screen w-[70vw] z-[11] bg-[#2d6d79] animate-[corner-2-animation_0.5s_linear] hidden md:block"
         style={{
           clipPath:
             "polygon(0 75%, 7% 81%, 15% 79%, 21% 86%, 30% 84%, 35% 90%, 41% 88%, 47% 89%, 53% 94%, 68% 100%, 0% 100%)",
         }}
       ></div>
 
-      <div className="relative z-10 lg:flex items-center justify-center h-[100vh] w-full max-w-7xl mx-auto px-4 gap-8 lg:gap-8">
+      <div className="relative z-10 flex lg:flex items-center justify-center sm:flex-row flex-col-reverse  lg:h-[100vh] w-full max-w-7xl mx-auto px-4 gap-8 lg:gap-8 h-full pt-20 scale-50 sm:scale-100 ">
         {/* Text Content */}
-        <div className="relative flex flex-col items-start justify-center text-white z-[100] max-w-2xl pt-16 sm:pt-20">
+        <div className="relative flex flex-col items-start justify-center text-white z-[100] max-w-2xl ">
+          {/* pt-16 sm:pt-20 scale-50 sm:scale-100 */}
           <h1 className="text-3xl md:text-4xl lg:text-[40px]  font-bold mb-5 font-['Poppins'] lg:leading-[3.5rem]">
             START OUR
             <br />
@@ -83,7 +84,7 @@ const Hero = () => {
         </div>
 
         {/* Image Container */}
-        <div className="pt-20">
+        <div className="">
           <div className="flex justify-center items-center h-[600px] w-[600px] z-[90]  lg:flex">
             <div className="flex justify-center items-center h-[450px] w-[450px] rounded-full shadow-[0_5px_15px_black] transition-all duration-[250ms] hover:shadow-[0_5px_30px_black] hover:scale-[1.02] z-[97] animate-[outer-circle-animation_1.3s_linear]">
               <div className="flex justify-center items-center h-[325px] w-[325px] rounded-full shadow-[0_5px_15px_black] transition-all duration-[250ms] hover:shadow-[0_5px_30px_black] hover:scale-[1.02] z-[98] animate-[middle-circle-animation_1.3s_linear]">
