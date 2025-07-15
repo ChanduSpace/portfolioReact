@@ -195,28 +195,35 @@ const Header = () => {
                 onClick={() => scrollToSection("home")}
                 className={`block w-full text-left px-3 py-2 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-['Poppins'] font-semibold ${getTextColor()}`}
               >
-                <Home size={16} className="inline mr-2" />
+                {/* <Home size={16} className="inline mr-2" /> */}
                 HOME
               </button>
               <button
                 onClick={() => scrollToSection("about")}
                 className={`block w-full text-left px-3 py-2 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-['Poppins'] font-semibold ${getTextColor()}`}
               >
-                <User size={16} className="inline mr-2" />
+                {/* <User size={16} className="inline mr-2" /> */}
                 ABOUT
+              </button>
+              <button
+                onClick={() => scrollToSection("skills")}
+                className={`block w-full text-left px-3 py-2 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-['Poppins'] font-semibold ${getTextColor()}`}
+              >
+                {/* <User size={16} className="inline mr-2" /> */}
+                SKILLS
               </button>
               <button
                 onClick={() => scrollToSection("projects")}
                 className={`block w-full text-left px-3 py-2 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-['Poppins'] font-semibold ${getTextColor()}`}
               >
-                <Briefcase size={16} className="inline mr-2" />
+                {/* <Briefcase size={16} className="inline mr-2" /> */}
                 PROJECTS
               </button>
               <button
                 onClick={() => scrollToSection("contact")}
                 className={`block w-full text-left px-3 py-2 hover:text-emerald-600 hover:bg-gray-50 rounded-md font-['Poppins'] font-semibold ${getTextColor()}`}
               >
-                <Mail size={16} className="inline mr-2" />
+                {/* <Mail size={16} className="inline mr-2" /> */}
                 CONTACT
               </button>
               <div className="flex space-x-4 px-3 py-2">
