@@ -10,7 +10,7 @@ import {
 import foodApp from "../assets/foodApp.jpg";
 import taskApp from "../assets/taskApp.jpg";
 import weatherApp from "../assets/weatherApp.jpg";
-// import pdfApp from "../assets/pdfApp.jpg";
+import pdfApp from "../assets/pdfApp.jpg";
 import notesApp from "../assets/notesApp.jpg";
 
 const Projects = () => {
@@ -30,7 +30,7 @@ const Projects = () => {
       title: "PDF Annotator App",
       description:
         "Built a full-stack application for uploading and managing PDF documents with highlighting capabilities...",
-      image: "",
+      image: pdfApp,
       technologies: ["React", "express.ja", "RESTAPI", "Node.js", "MongoDB"],
       liveUrl: "https://deeref-assignment.onrender.com/",
       githubUrl: "https://github.com/ChanduSpace/DeeRef-Assignment.git",
