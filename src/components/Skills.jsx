@@ -103,8 +103,11 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="lg:h-screen flex items-center bg-gray-50">
-      <div className="container mx-auto px-4 pt-24">
+    <section
+      id="skills"
+      className="lg:h-full pt-20 flex items-center bg-gray-50"
+    >
+      <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
             My <span className="text-blue-600">Skills</span>

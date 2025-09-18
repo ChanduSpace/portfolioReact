@@ -67,8 +67,8 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4 pt-10 sm:px-6 lg:px-8">
+    <section id="about" className="pt-20 bg-white">
+      <div className="max-w-7xl mx-auto sm:px-6 ">
         <div className="text-center mb-8">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
             About Me

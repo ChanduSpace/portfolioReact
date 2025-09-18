@@ -10,6 +10,8 @@ import {
 import foodApp from "../assets/foodApp.jpg";
 import taskApp from "../assets/taskApp.jpg";
 import weatherApp from "../assets/weatherApp.jpg";
+// import pdfApp from "../assets/pdfApp.jpg";
+import notesApp from "../assets/notesApp.jpg";
 
 const Projects = () => {
   const projects = [
@@ -25,25 +27,24 @@ const Projects = () => {
       color: "from-[#2E6D75] to-[#155E63]",
     },
     {
-      title: "E-commerce Platform",
+      title: "PDF Annotator App",
       description:
-        "A full-featured e-commerce solution with product catalog, shopping cart, user accounts, and admin dashboard..",
-      image:
-        "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=600",
-      technologies: ["React", "Redux", "Stripe API", "Firebase"],
-      liveUrl: "https://ecommerce-dulam.netlify.app/",
-      githubUrl: "https://github.com/ChanduSpace/ecommerce-assignment.git",
-      icon: ShoppingCart,
+        "Built a full-stack application for uploading and managing PDF documents with highlighting capabilities...",
+      image: "",
+      technologies: ["React", "express.ja", "RESTAPI", "Node.js", "MongoDB"],
+      liveUrl: "https://deeref-assignment.onrender.com/",
+      githubUrl: "https://github.com/ChanduSpace/DeeRef-Assignment.git",
+      icon: CheckCircle,
       color: "from-[#2E6D75] to-[#155E63]",
     },
     {
-      title: "Task Manager",
+      title: "Multi-Tenant SaaS Notes App",
       description:
-        "An intuitive task management application with drag-and-drop functionality, priority levels and deadlines.",
-      image: taskApp,
-      technologies: ["React", "TypeScript", "Local Storage", "CSS3"],
-      liveUrl: "https://lucky-faun-5e7a47.netlify.app/",
-      githubUrl: "https://github.com/ChanduSpace/taskManager",
+        "Designed and implemented a SaaS platform supporting multiple tenants with strict data isolation...",
+      image: notesApp,
+      technologies: ["React", "express.ja", "RESTAPI", "Node.js", "MongoDB"],
+      liveUrl: "https://yardstick-assignment-vso8.vercel.app/",
+      githubUrl: "https://github.com/ChanduSpace/Yardstick-Assignment.git",
       icon: CheckCircle,
       color: "from-[#2E6D75] to-[#155E63]",
     },
@@ -58,13 +59,21 @@ const Projects = () => {
       icon: Cloud,
       color: "from-[#2E6D75] to-[#155E63]",
     },
+    {
+      title: "Task Manager",
+      description:
+        "An intuitive task management application with drag-and-drop functionality, priority levels and deadlines.",
+      image: taskApp,
+      technologies: ["React", "TypeScript", "Local Storage", "CSS3"],
+      liveUrl: "https://lucky-faun-5e7a47.netlify.app/",
+      githubUrl: "https://github.com/ChanduSpace/taskManager",
+      icon: CheckCircle,
+      color: "from-[#2E6D75] to-[#155E63]",
+    },
   ];
 
   return (
-    <section
-      id="projects"
-      className="lg:h-screen bg-gray-50 flex flex-col lg:h-full"
-    >
+    <section id="projects" className="bg-gray-50 flex flex-col lg:h-full">
       <div className="flex-1 max-w-7xl mx-auto px-4 pt-24 sm:px-6 lg:px-8 py-8 flex flex-col">
         {/* Header Section - Compact */}
         <div className="text-center mb-4">

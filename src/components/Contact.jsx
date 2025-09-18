@@ -81,7 +81,7 @@ const Contact = () => {
   return (
     <section
       id="contact"
-      className="lg:h-[90vh] py-10 pt-24 bg-[#00292f] relative overflow-hidden"
+      className="lg:h-full pt-20 bg-[#00292f] relative overflow-hidden"
     >
       {/* Background animation */}
       <div className="absolute inset-0">
