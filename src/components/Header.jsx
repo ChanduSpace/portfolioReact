@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import resume from "../assets/ChanduResumeFrontend.pdf";
+import resume from "../assets/dulamChanduResume.pdf";
 import {
   Menu,
   X,
