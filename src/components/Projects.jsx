@@ -12,18 +12,19 @@ import taskApp from "../assets/taskApp.jpg";
 import weatherApp from "../assets/weatherApp.jpg";
 import pdfApp from "../assets/pdfApp.jpg";
 import notesApp from "../assets/notesApp.jpg";
+import recipeTreasure from "../assets/recipeTreasure.jpg";
 
 const Projects = () => {
   const projects = [
     {
-      title: "Food Delivery App",
+      title: "Recipe Treasure App",
       description:
-        "Developed a Swiggy-inspired food delivery platform with restaurant listings and menu browsing. ",
-      image: foodApp,
-      technologies: ["React", "Tailwind", "Redux", "Jest"],
-      liveUrl: "https://gregarious-sawine-9ddd89.netlify.app/",
-      githubUrl: "https://github.com/ChanduSpace/food-app-with-react",
-      icon: Utensils,
+        "Built a full-stack recipe management app with user authentication and personalized dashboards",
+      image: recipeTreasure,
+      technologies: ["React", "express.ja", "RESTAPI", "Node.js", "MongoDB"],
+      liveUrl: "https://recipetreasure.netlify.app/register",
+      githubUrl: "https://github.com/ChanduSpace/recipeTreasure.git",
+      icon: CheckCircle,
       color: "from-[#2E6D75] to-[#155E63]",
     },
     {
@@ -68,6 +69,17 @@ const Projects = () => {
       liveUrl: "https://lucky-faun-5e7a47.netlify.app/",
       githubUrl: "https://github.com/ChanduSpace/taskManager",
       icon: CheckCircle,
+      color: "from-[#2E6D75] to-[#155E63]",
+    },
+    {
+      title: "Food Delivery App",
+      description:
+        "Developed a Swiggy-inspired food delivery platform with restaurant listings and menu browsing. ",
+      image: foodApp,
+      technologies: ["React", "Tailwind", "Redux", "Jest"],
+      liveUrl: "https://gregarious-sawine-9ddd89.netlify.app/",
+      githubUrl: "https://github.com/ChanduSpace/food-app-with-react",
+      icon: Utensils,
       color: "from-[#2E6D75] to-[#155E63]",
     },
   ];
