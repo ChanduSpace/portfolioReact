@@ -13,6 +13,7 @@ import weatherApp from "../assets/weatherApp.jpg";
 import pdfApp from "../assets/pdfApp.jpg";
 import notesApp from "../assets/notesApp.jpg";
 import recipeTreasure from "../assets/recipeTreasure.jpg";
+import dhoni from "../assets/dhoni.jpg";
 
 const Projects = () => {
   const projects = [
@@ -79,6 +80,17 @@ const Projects = () => {
       technologies: ["React", "Tailwind", "Redux", "Jest"],
       liveUrl: "https://gregarious-sawine-9ddd89.netlify.app/",
       githubUrl: "https://github.com/ChanduSpace/food-app-with-react",
+      icon: Utensils,
+      color: "from-[#2E6D75] to-[#155E63]",
+    },
+    {
+      title: "Dhoni Stats Page",
+      description:
+        "A static webpage showcasing the cricketing statistics of MS Dhoni using HTML and CSS.",
+      image: dhoni,
+      technologies: [HTML, CSS],
+      liveUrl: "https://chanduspace.github.io/dhoni-stats-page/",
+      githubUrl: "https://github.com/ChanduSpace/dhoni-stats-page.git",
       icon: Utensils,
       color: "from-[#2E6D75] to-[#155E63]",
     },
