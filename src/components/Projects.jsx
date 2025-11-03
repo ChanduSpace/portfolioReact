@@ -88,7 +88,7 @@ const Projects = () => {
       description:
         "A static webpage showcasing the cricketing statistics of MS Dhoni using HTML and CSS.",
       image: dhoni,
-      technologies: [HTML, CSS],
+      technologies: ["HTML", "CSS"],
       liveUrl: "https://chanduspace.github.io/dhoni-stats-page/",
       githubUrl: "https://github.com/ChanduSpace/dhoni-stats-page.git",
       icon: Utensils,
